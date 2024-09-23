@@ -15,3 +15,13 @@ src : `https://github.com/firtman/go-fundamentals`
 - Go is statically typed while Python is dynamically typed.
 - Not an Object Oriented language. No try catch or exception. We have design pattern to work with errors.
 - A module is a group of packages.
+
+- creating a module : go init mod <module name>
+- go.mod us kind of package.json.
+	- it lists all the dependencies.
+- go workspace can have multiple modules.
+
+## const vs immutable variable
+
+- immutable variable is a variable that is space in memory. Address that it has been allocated.
+- immutable variable can be set after the compilation where as constants is set at the start of the compilation. A constant cannot set its value in runtime.
